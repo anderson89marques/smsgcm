@@ -16,7 +16,7 @@
                         arrayids[i] = checks[i].id;
                         console.log(arrayids);
                     }
-                    <g:remoteFunction controller="gcm" action="postmessagem" params="'objs='+arrayids" onSuccess="alert(data)"></g:remoteFunction>
+                    <g:remoteFunction controller="gcm" action="buscainformacao" params="'objs='+arrayids" onSuccess="alert(data)"></g:remoteFunction>
                 });
             });
         </script>
